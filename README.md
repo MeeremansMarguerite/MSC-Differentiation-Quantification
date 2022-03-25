@@ -4,7 +4,7 @@
 > First draft: 		02/12/2021 \
 > Latest adjustments:	25/03/2022
 
-This document contains the information needed to quantify adipogenic, chondrogenic and osteogenic differentiation of Mesenchymal Stem Cells (MSC). \
+This document contains the information needed to quantify adipogenic, chondrogenic and osteogenic differentiation of Mesenchymal Stromal Cells (MSC). \
 Read carefully before taking pictures and before doing the analysis. \
 The macro’s are severely adapted from https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6410121/ 
 
