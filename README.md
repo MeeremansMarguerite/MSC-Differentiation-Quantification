@@ -2,7 +2,7 @@
 > Made by: Marguerite Meeremans, Ghent University, VetSCRU Lab 2022 \
 > Marguerite.Meeremans@ugent.be \
 > First draft: 		02/12/2021 \
-> Latest adjustments:	25/03/2022
+> Latest adjustments:	24/05/2022
 
 This document contains the information needed to quantify adipogenic, chondrogenic and osteogenic differentiation of Mesenchymal Stromal Cells (MSC). \
 Read carefully before taking pictures and before doing the analysis. \
@@ -40,7 +40,7 @@ Save one extra image with a scalebar to manually adjust the scale of the macro i
 >  * FIRST install the plugin "Results to Excel" via https://imagej.net/plugins/read-and-write-excel
 >  * Before you start the automatic workflow, try to follow the steps in the macro manually. This is necessary to adjust the size of the particles, scale,... depending on the magnification. 
 >  * MAGNIFICATION: Determine the scale on 1 the test image with scale bar and set as global scale. \
->   		Recommended magnification per differentiation is 20x, 10x and 10x for Adipogenic, Chondrogenic and Osteogenic respectively. \
+>   		Recommended magnification per differentiation is 20x, 10x and 10x for adipogenic, chondrogenic and osteogenic differentiation respectively. \
 		If you use another scale, do not forget to adjust the appropriate line in the macro (±line 35). \
 		Before you run the macro, make sure the right global scale is active!! ((G) next to image name) 
 > * If needed you can add some lines (written at the end of the script) to adjust the Brightness/Contrast of each image (manually OR automatically) before running the analysis, however doing this manually is a time consuming task. \
@@ -58,11 +58,12 @@ Save one extra image with a scalebar to manually adjust the scale of the macro i
 
 ### Chondrogenic – Alcian Blue staining
 >  * The macro ‘VetSCRU_AlcianBlue’ is designed to detect the amount of glycosaminoglycans (GAGs) in the image based on Alcian Blue staining, with Nuclear Fast Red counterstaining. 
+>  * Additionally, an area in µm^2 is givin for every pellet, based on a fitting ellipse (drawn manually).
 >  * After background correction, you need to manually cut the image to the borders of the pellet, to avoid taking the area of the full slide in account. 
 >  * The 'Color deconvolution 2' plugin distinguish 3 colours. We will use 2, being blue = GAGs, pink/red= nuclear fast red. 
->  * The results contain: the % GAG of the full image, % H, area (µm2) GAG and area (µm2) H. The chondrogenic capacity of the MSC can be calculated by dividing the % GAG/area GAG by the %H /area H, respectively, to account for the difference in cell numbers.
+>  * The results contain: area of the pellet (µm2), the % GAG of the cut image, % H, area (µm2) GAG and area (µm2) H. The chondrogenic capacity of the MSC can be calculated by dividing the % GAG/area GAG by the %H /area H, respectively, to account for the difference in cell numbers.
+>  * Additionally, for chondrogenic differentiation a difference between differentiated and undifferentiated pellet area can be detected.
 >  * Comparison with negative controls, undifferentiated cells in expansion medium in pellet culture is possible.
->  * Additionally, you can compare with a positive control (cartilage sample) if desired.
 
 ### Osteogenic – Alizarin Red staining
 >  * The macro ‘VetSCRU_AlizarinRed’ is designed to detect calcium deposits based on Alizarin Red staining. 
