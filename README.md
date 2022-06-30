@@ -58,7 +58,7 @@ Save 1 extra image with a scalebar per magnification, to manually adjust the sca
 
 ### Chondrogenic – Alcian Blue staining
 >  * The macro ‘VetSCRU_AlcianBlue’ is designed to detect the amount of glycosaminoglycans (GAGs) in the image based on Alcian Blue staining, with Nuclear Fast Red counterstaining. 
->  * Additionally, an area in µm^2 is givin for every pellet, based on a fitting ellipse (drawn manually).
+>  * Additionally, an area in µm^2 is given for every pellet, based on a fitting ellipse (drawn manually).
 >  * After background correction, you need to manually cut the image to the borders of the pellet, to avoid taking the area of the full slide into account. 
 >  * The 'Color deconvolution 2' plugin distinguishes 3 colors. We will use 2, being blue = GAGs, pink/red= nuclear fast red. 
 >  * The results contain: area of the pellet (µm2), the % GAG of the cut image, % H, area (µm2) GAG and area (µm2) H. The chondrogenic capacity of the MSC can be calculated by dividing the % GAG/area GAG by the %H /area H, respectively, to account for the difference in cell numbers.
