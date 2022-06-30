@@ -45,7 +45,7 @@ Save 1 extra image with a scalebar per magnification, to manually adjust the sca
 		Before you run the macro, make sure the right global scale is active!! ((G) next to image name) 
 > * If needed, you can add some lines (written at the end of the script) to adjust the Brightness/Contrast of each image (manually OR automatically) before running the analysis, however, doing this manually is a time consuming task. \
 > 		For a macro that involves adjusting settings manually, such as Brightness/Contrast, you need to run the macro 4 times and take the mean of these runs.
->  * Before starting the macro, insert the correct path to save the images. Copy the file path from your document folder and change ‘\’ into ‘/’. The last word is followed by ‘.xslx’ and this should be the name of the new document. \
+>  * Before starting the macro, insert the correct path to save the results. Copy the file path from your document folder and change ‘\’ into ‘/’. The last word is followed by ‘.xslx’ and this should be the name of the new document. \
 >  		! After analysis, immediately change the name of the excel file. \
 >  		! If document with the same name already excists, imageJ will save the results in the same document, overwrite them OR when it is open, will not save them at all.
 
