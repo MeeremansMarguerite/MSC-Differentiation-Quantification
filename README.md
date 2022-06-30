@@ -1,4 +1,4 @@
-# MSC-Differentiation-Quantification
+# MSCs Differentiation-Quantification
 > Made by: Marguerite Meeremans, Ghent University, VetSCRU Lab 2022 \
 > Marguerite.Meeremans@ugent.be \
 > First draft: 		02/12/2021 \
@@ -53,7 +53,7 @@ Save 1 extra image with a scalebar per magnification, to manually adjust the sca
 >  * The macro ‘VetSCRU_OilRed’ is designed to detect lipid droplets based on Oil Red O staining, with Hematoxylin counterstaining. 
 >  * The 'Color deconvolution 2' plugin distinguishes 3 colors. We will use 2, being red = droplets, pink = background.
 >  * 'Background'is representative for the cultivated cell area and is therefore a way to normalize the red signal to the amount of cells.
->  * The results contain: the % Red of the full image, % Background, area (µm2) Red and area (µm2) B. The adipogenic capacity of the MSC can be calculated by dividing the % red/area red by the %B/area B, respectively.
+>  * The results contain: the % Red of the full image, % Background, area (µm2) Red and area (µm2) B. The adipogenic capacity of the MSCs can be calculated by dividing the % red/area red by the %B/area B, respectively.
 >  * Always compare with non-induced controls (cells in expansion medium).
 
 ### Chondrogenic – Alcian Blue staining
@@ -61,7 +61,7 @@ Save 1 extra image with a scalebar per magnification, to manually adjust the sca
 >  * Additionally, an area in µm^2 is given for every pellet, based on a fitting ellipse (drawn manually).
 >  * After background correction, you need to manually cut the image to the borders of the pellet, to avoid taking the area of the full slide into account. 
 >  * The 'Color deconvolution 2' plugin distinguishes 3 colors. We will use 2, being blue = GAGs, pink/red= nuclear fast red. 
->  * The results contain: area of the pellet (µm2), the % GAG of the cut image, % H, area (µm2) GAG and area (µm2) H. The chondrogenic capacity of the MSC can be calculated by dividing the % GAG/area GAG by the %H /area H, respectively, to account for the difference in cell numbers.
+>  * The results contain: area of the pellet (µm2), the % GAG of the cut image, % H, area (µm2) GAG and area (µm2) H. The chondrogenic capacity of the MSCs can be calculated by dividing the % GAG/area GAG by the %H /area H, respectively, to account for the difference in cell numbers.
 >  * Additionally, for chondrogenic differentiation a difference between differentiated and non-induced pellet area can be detected.
 >  * Comparison with non-induced controls, cells in expansion medium in 3D micromass culture is important.
 
@@ -69,8 +69,8 @@ Save 1 extra image with a scalebar per magnification, to manually adjust the sca
 >  * The macro ‘VetSCRU_AlizarinRed’ is designed to detect calcium deposits based on Alizarin Red staining. 
 >  * The 'Color deconvolution 2' plugin distinguishes 3 colors. We will use 1, being red = Ca deposits. In negative controls, the Alizarin Red will color the cell cultured area grey/pink, this is used as a background.
 >  * 'Background' colors the full cultivated cell area and is therefore a way to normalize the red signal over the cultured area.	
->  * The results contain: the % Red of the full image, % Background, area (µm2) Red and area (µm2) B. The osteogenic capacity of the MSC can be calculated by dividing the % red/area red by the %B/area B, respectively.
->  *Always compare with non-induced controls (cells in expansion medium).
+>  * The results contain: the % Red of the full image, % Background, area (µm2) Red and area (µm2) B. The osteogenic capacity of the MSCs can be calculated by dividing the % red/area red by the %B/area B, respectively.
+>  * Always compare with non-induced controls (cells in expansion medium).
 
 ## DATA ANALYSIS
 ! Before you proceed with data analysis, rename the excel file. Otherwise next time you will run the macro, the results will be combined/deleted and therefore unclear to analyse.
