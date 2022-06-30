@@ -21,7 +21,7 @@ Therefore, ALWAYS take darkfield and lightfield images following these steps:
 >      This image will be nearly black everywhere, except for “hot pixels”.\
 >      Save the image as “1Dark.tif”; this will be used to compensate for hot pixels.
 > 7) Reposition the specimen, re-open the diaphragm and check histogram saturation and range of grey values (full histogram). 
-> 8) Go to empty well and apply white balance function on the EMPTY illuminated brightfield.
+> 8) Go to an empty well and adjust "white balance" on the EMPTY illuminated brightfield.
 > 9) Capture lightfield image (all background). \
 >      Save the image as “1Light.tif”; this will be used to compensate the background illumination. \
 >      -> DO NOT ADJUST SETTINGS ANYMORE!
