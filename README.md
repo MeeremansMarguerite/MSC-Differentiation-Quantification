@@ -9,7 +9,7 @@ Read carefully before taking pictures and before doing the analysis. \
 The macro’s are severely adapted from https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6410121/ 
 
 ## IMAGE ACQUIRING
-! Be sure to use 'normal' brightfield, NO phase contrast! \
+! Be sure to use brightfield, NO phase contrast! \
 Background illumination correction is essential  in brightfield microscopy to provide both a neutral colour background and a uniformly illuminated field.\
 Therefore, ALWAYS take darkfield and lightfield images following these steps: 
 > 1) Switch on the microscope + lamp and leave it warm up for some time
