@@ -10,7 +10,7 @@ The macro’s are severely adapted from https://www.ncbi.nlm.nih.gov/pmc/article
 
 ## IMAGE ACQUIRING
 ! Be sure to use brightfield, NO phase contrast! \
-Background illumination correction is essential  in brightfield microscopy to provide both a neutral colour background and a uniformly illuminated field.\
+Background illumination correction is essential  in brightfield microscopy to provide both a neutral color background and a uniformly illuminated field.\
 Therefore, ALWAYS take darkfield and lightfield images following these steps: 
 > 1) Switch on the microscope + lamp and leave it warm up for some time
 > 2) Switch off the camera "auto-" functions, such as auto-exposure
@@ -51,7 +51,7 @@ Save one extra image with a scalebar to manually adjust the scale of the macro i
 
 ### Adipogenic – OilRedO staining
 >  * The macro ‘VetSCRU_OilRed’ is designed to detect lipid droplets based on Oil Red O staining, with Hematoxylin counterstaining. 
->  * The 'Color deconvolution 2' plugin distinguish 3 colours. We will use 2, being red = droplets, pink = background.
+>  * The 'Color deconvolution 2' plugin distinguish 3 colors. We will use 2, being red = droplets, pink = background.
 >  * 'Background'is representative for the cultivated cell area and is therefore a way to normalize the red signal to the amount of cells.
 >  * The results contain: the % Red of the full image, % Background, area (µm2) Red and area (µm2) B. The adipogenic capacity of the MSC can be calculated by dividing the % red/area red by the %B/area B, respectively.
 >  * Always compare with negative controls (undifferentiated cells, cells in expansion medium).
@@ -60,15 +60,15 @@ Save one extra image with a scalebar to manually adjust the scale of the macro i
 >  * The macro ‘VetSCRU_AlcianBlue’ is designed to detect the amount of glycosaminoglycans (GAGs) in the image based on Alcian Blue staining, with Nuclear Fast Red counterstaining. 
 >  * Additionally, an area in µm^2 is givin for every pellet, based on a fitting ellipse (drawn manually).
 >  * After background correction, you need to manually cut the image to the borders of the pellet, to avoid taking the area of the full slide in account. 
->  * The 'Color deconvolution 2' plugin distinguish 3 colours. We will use 2, being blue = GAGs, pink/red= nuclear fast red. 
+>  * The 'Color deconvolution 2' plugin distinguish 3 colors. We will use 2, being blue = GAGs, pink/red= nuclear fast red. 
 >  * The results contain: area of the pellet (µm2), the % GAG of the cut image, % H, area (µm2) GAG and area (µm2) H. The chondrogenic capacity of the MSC can be calculated by dividing the % GAG/area GAG by the %H /area H, respectively, to account for the difference in cell numbers.
 >  * Additionally, for chondrogenic differentiation a difference between differentiated and undifferentiated pellet area can be detected.
 >  * Comparison with negative controls, undifferentiated cells in expansion medium in pellet culture is possible.
 
 ### Osteogenic – Alizarin Red staining
 >  * The macro ‘VetSCRU_AlizarinRed’ is designed to detect calcium deposits based on Alizarin Red staining. 
->  * The 'Color deconvolution 2' plugin distinguish 3 colours. We will use 1, being red = Ca deposits. In negative controls, the Alizarin Red will color the cell cultured area grey/pink, we will use this as a background.
->  * 'Background' colours the full cultivated cell area and is therefore a way to normalize the red signal over the cultured area.	
+>  * The 'Color deconvolution 2' plugin distinguish 3 colors. We will use 1, being red = Ca deposits. In negative controls, the Alizarin Red will color the cell cultured area grey/pink, we will use this as a background.
+>  * 'Background' colors the full cultivated cell area and is therefore a way to normalize the red signal over the cultured area.	
 >  * The results contain: the % Red of the full image, % Background, area (µm2) Red and area (µm2) B. The osteogenic capacity of the MSC can be calculated by dividing the % red/area red by the %B/area B, respectively.
 >  * Always compare with negative controls (undifferentiated cells, cells in expansion medium).
 
