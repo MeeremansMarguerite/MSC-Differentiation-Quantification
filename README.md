@@ -8,7 +8,7 @@ This document contains the information needed to quantify adipogenic, chondrogen
 Read carefully before taking pictures and before doing the analysis. \
 The macro’s are severely adapted from https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6410121/ 
 
-## IMAGE ACQUIRING
+## IMAGE ACQUISITION
 ! Be sure to use brightfield, NO phase contrast! \
 Background illumination correction is essential  in brightfield microscopy to provide both a neutral color background and a uniformly illuminated field.\
 Therefore, ALWAYS take darkfield and lightfield images following these steps: 
