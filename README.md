@@ -16,7 +16,7 @@ Therefore, ALWAYS take darkfield and lightfield images following these steps:
 > 2) Switch off the camera's "auto-" functions, such as auto-exposure.
 > 3) Put the plate on the stage. Adjust focus, illumination and set an appropriate exposure time.
 > 4) Go to an empty well and adjust "white balance" on the EMPTY illuminated brightfield.
-> 5) Check the histogram of this brightfield to avoid underexposure or over-saturatation. If needed, re-adjust illumination and white-balance.
+> 5) Check the histogram of this brightfield to avoid underexposure or oversaturatation. If needed, re-adjust illumination and white-balance.
 > 6) Block the light path (by closing the diaphragm, do not switch the light off!) and capture a darkfield image. \
 >      This image will be nearly black everywhere, except for “hot pixels”.\
 >      Save the image as “1Dark.tif”; this will be used to compensate for hot pixels.
