@@ -63,7 +63,7 @@ Save 1 extra image with a scalebar per magnification, to manually adjust the sca
 >  * The 'Color deconvolution 2' plugin distinguishes 3 colors. We will use 2, being blue = GAGs, pink/red= nuclear fast red. 
 >  * The results contain: area of the pellet (µm2), the % GAG of the cut image, % H, area (µm2) GAG and area (µm2) H. The chondrogenic capacity of the MSC can be calculated by dividing the % GAG/area GAG by the %H /area H, respectively, to account for the difference in cell numbers.
 >  * Additionally, for chondrogenic differentiation a difference between differentiated and non-induced pellet area can be detected.
->  * Comparison with non-induced controls, cells in expansion medium in 3D micromass culture is possible.
+>  * Comparison with non-induced controls, cells in expansion medium in 3D micromass culture is important.
 
 ### Osteogenic – Alizarin Red staining
 >  * The macro ‘VetSCRU_AlizarinRed’ is designed to detect calcium deposits based on Alizarin Red staining. 
