@@ -1,11 +1,11 @@
-//MSC DIFFERENTIATION QUANTIFICATION, based on a differentiation ratio - OIL RED O + HEMATOXYLIN (Adipogenic)
-	//Images order : Name images easy (short)
+//MSCs DIFFERENTIATION QUANTIFICATION, based on a differentiation ratio - OIL RED O + HEMATOXYLIN (Adipogenic)
+	//Images order : Name images simple (short)
 					//DO NOT take pictures using phase-contrast
 					//ALWAYS take a darkfield (name: "1Dark.tif") and a lightfield (name: "1Light.tif") at the same moment of your sample pictures
 					//Make sure these are the first 2 images per folder to analyze
 					//For more information, see "README"-file
 	//Uses Color Deconvolution with user defined thresholds
-	//Determine scale on 1 image with scale bar and set as global scale (Adjust line 35), ALL IMAGES SAME MAGNIFICATION
+	//Determine scale on 1 image with scalebar and set as global scale (Adjust line 35), ALL IMAGES SAME MAGNIFICATION
 	//Make sure the right global scale is active!! ((G) next to image name)
 	//FIRST install the plugin "Results to Excel" via https://imagej.net/plugins/read-and-write-excel
 	//Images to analyze: save in .tiff/.jpg WITHOUT scalebar printed (this can wrongly be recognized as a signal)
@@ -51,7 +51,7 @@ selectWindow("Result");
 run("Colour Deconvolution2", "vectors=[User values] output=[8bit_Transmittance] simulated cross [r1]=0.3444278036120452 [g1]=0.6996578556225743 [b1]=0.6259779334486187 [r2]=0.7025544744811385 [g2]=0.6808652139073618 [b2]=0.2069777062328551 [r3]=0.0 [g3]=0.0 [b3]=0.0");
 close("Result-(Colour_3)");
 
-	//Purple colours = background (image in channel 2, C2), Hematoxylin
+	//Purple colors = background (image in channel 2, C2), Hematoxylin
 selectWindow("Result-(Colour_2)");
 run("Duplicate...", "title=B#"+ nom);
 close("Result-RGB_Keep_C2");
@@ -67,7 +67,7 @@ run("Fill Holes");
 run("Measure");
 close("B#"+ nom);
 
-	// Red colours = signal, Lipid droplets (image in channel 1, C1), based on Oil Red O staining
+	// Red colors = signal, Lipid droplets (image in channel 1, C1), based on Oil Red O staining
 selectWindow("Result-(Colour_1)");
 run("Duplicate...", "title=R#"+ nom);
 close("Result-RGB_Keep_C1");
@@ -99,7 +99,7 @@ selectWindow("Log");
 run("Close");
 
 //ANALYSIS:
-//Divide the % Red by the % Background (representative for the number of cells, cell culture area, hematoxylin stained)
+//Divide the % Red (or area red) by the % Background (or area background) (representative for the number of cells, cell culture area, hematoxylin stained)
 
 //Optional: include manual Brightness/Contrast settings for better analysis (if needed).
 	//AUTOMATIC
