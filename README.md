@@ -2,7 +2,7 @@
 > Made by: Marguerite Meeremans, Ghent University, VetSCRU Lab 2022 \
 > Marguerite.Meeremans@ugent.be \
 > First draft: 		02/12/2021 \
-> Latest adjustments:	24/05/2022
+> Latest adjustments:	30/06/2022
 
 This document contains the information needed to quantify adipogenic, chondrogenic, and osteogenic differentiation of Mesenchymal Stem Cells (MSCs). \
 Read carefully before taking pictures and before doing the analysis. \
