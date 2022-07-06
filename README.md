@@ -38,10 +38,11 @@ Save 1 extra image with a scalebar per magnification, to manually adjust the sca
 ### General Tips
 >  * Give your images simple names, save a list of what those names are in another document, ImageJ can’t handle spaces, put a “_” instead. 
 >  * FIRST install the plugin "Results to Excel" via https://imagej.net/plugins/read-and-write-excel.
+>  	AND "Colour Deconvolution 2" via https://blog.bham.ac.uk/intellimic/g-landini-software/colour-deconvolution-2
 >  * Before you start the automatic workflow, try to follow the steps in the macro manually. This is necessary to adjust the size of the particles, scale, etc. depending on the magnification used. 
 >  * MAGNIFICATION: Determine the scale on 1 test image with printed scalebar and set as global scale. \
 >   		Recommended magnification per differentiation is 20x, 10x and 10x for adipogenic, chondrogenic and osteogenic differentiation, respectively. \
-		If you use another scale, do not forget to adjust the appropriate line in the macro (±line 35). \
+		If you use another scale, do not forget to adjust the appropriate line in the macro (±line 36). \
 		Before you run the macro, make sure the right global scale is active!! ((G) next to image name) 
 > * If needed, you can add some lines (written at the end of the script) to adjust the Brightness/Contrast of each image (manually OR automatically) before running the analysis, however, doing this manually is a time consuming task. \
 > 		For a macro that involves adjusting settings manually, such as Brightness/Contrast, you need to run the macro 4 times and take the mean of these runs.
