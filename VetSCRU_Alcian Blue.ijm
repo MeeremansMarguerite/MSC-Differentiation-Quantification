@@ -5,9 +5,10 @@
 					//Make sure these are the first 2 images per folder to analyze
 					//For more information, see "README"-file
 	//Uses Color Deconvolution with user defined thresholds
-	//Determine scale on 1 image with scalebar and set as global scale (Adjust line 36), ALL IMAGES SAME MAGNIFICATION
+	//Determine scale on 1 image with scalebar and set as global scale (Adjust line 37), ALL IMAGES SAME MAGNIFICATION
 	//Make sure the right global scale is active!! ((G) next to image name)
 	//FIRST install the plugin "Results to Excel" via https://imagej.net/plugins/read-and-write-excel
+		//AND "Colour Deconvolution 2" via https://blog.bham.ac.uk/intellimic/g-landini-software/colour-deconvolution-2
 	//Images to analyze: save in .tiff/.jpg WITHOUT scalebar printed (this can wrongly be recognized as a signal)
 	///Crop all images into a circle touching pellet borders, the area of this circle is saved in the result file.
 	//Written by MARGUERITE MEEREMANS (2022-01-07), marguerite.meeremans@ugent.be
