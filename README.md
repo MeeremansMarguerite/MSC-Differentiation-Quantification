@@ -37,7 +37,7 @@ Save 1 extra image with a scalebar per magnification, to manually adjust the sca
 ## IMAGE J MACRO's
 ### General Tips
 >  * Give your images simple names, save a list of what those names are in another document, ImageJ can’t handle spaces, put a “_” instead. 
->  * FIRST install the plugin "Results to Excel" via https://imagej.net/plugins/read-and-write-excel.
+>  * FIRST install the plugin "Results to Excel" via https://imagej.net/plugins/read-and-write-excel. \
 >  	AND "Colour Deconvolution 2" via https://blog.bham.ac.uk/intellimic/g-landini-software/colour-deconvolution-2
 >  * Before you start the automatic workflow, try to follow the steps in the macro manually. This is necessary to adjust the size of the particles, scale, etc. depending on the magnification used. 
 >  * MAGNIFICATION: Determine the scale on 1 test image with printed scalebar and set as global scale. \
