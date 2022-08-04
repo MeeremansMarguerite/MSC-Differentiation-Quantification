@@ -1,5 +1,5 @@
 # MSCs Differentiation-Quantification
->Heyman E<sup>1</sup>, Meeremans M<sup>1*</sup>, Devriendt B<sup>2</sup> , Olenic M<sup>1,3</sup>, De Schauwer C <sup>1</sup> \
+>Heyman E<sup>1</sup>, Meeremans M<sup>1*</sup>, Devriendt B<sup>2</sup> , Olenic M<sup>1,3</sup>, De Schauwer C<sup>1</sup> \
 ><sup>1</sup>Veterinary Stem Cell Research Unit,  <sup>2</sup>Laboratory of Immunology, Department of Translational Physiology, Infectiology and Public Health, Faculty of Veterinary Medicine, Ghent University, Merelbeke, Belgium. \
 ><sup>3</sup>Tissue Engineering Lab, Muscles and Movement Group, Faculty of Medicine, Catholic University of Leuven, Kortrijk, Belgium. \
 >**<sup>*</sup>Corresponding author:** \
