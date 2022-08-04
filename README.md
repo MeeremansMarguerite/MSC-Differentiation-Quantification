@@ -1,8 +1,11 @@
 # MSCs Differentiation-Quantification
-> Made by: Marguerite Meeremans, Ghent University, VetSCRU Lab 2022 \
+>Heyman E<sup>1</sup>, Meeremans M<sup>1*</sup>, Devriendt B<sup>2</sup> , Olenic M<sup>1,3</sup>, De Schauwer C <sup>1</sup> \
+><sup>1</sup>Veterinary Stem Cell Research Unit,  <sup>2</sup>Laboratory of Immunology, Department of Translational Physiology, Infectiology and Public Health, Faculty of Veterinary Medicine, Ghent University, Merelbeke, Belgium. \
+><sup>3</sup>Tissue Engineering Lab, Muscles and Movement Group, Faculty of Medicine, Catholic University of Leuven, Kortrijk, Belgium. \
+>**<sup>*</sup>Corresponding author:** \
 > Marguerite.Meeremans@ugent.be \
-> First draft: 		02/12/2021 \
-> Latest adjustments:	30/06/2022
+> **First draft:** 		02/12/2021 \
+> **Latest adjustments:**	30/06/2022
 
 This document contains the information needed to quantify adipogenic, chondrogenic, and osteogenic differentiation of mesenchymal stem cells (MSCs). \
 Read carefully before taking pictures and before doing the analysis. \
