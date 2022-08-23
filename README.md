@@ -5,7 +5,7 @@
 >**<sup>*</sup>Corresponding author:** \
 > Marguerite.Meeremans@ugent.be \
 > **First draft:** 		02/12/2021 \
-> **Latest adjustments:**	30/06/2022
+> **Latest adjustments:**	23/08/2022
 
 This document contains the information needed to quantify adipogenic, chondrogenic, and osteogenic differentiation of mesenchymal stem cells (MSCs). \
 Read carefully before taking pictures and before doing the analysis. \
@@ -51,7 +51,8 @@ Save 1 extra image with a scalebar per magnification, to manually adjust the sca
 > 		For a macro that involves adjusting settings manually, such as Brightness/Contrast, you need to run the macro 4 times and take the mean of these runs.
 >  * Before starting the macro, insert the correct path to save the results. Copy the file path from your document folder and change ‘\’ into ‘/’. The last word is followed by ‘.xslx’ and this should be the name of the new document. \
 >  		! After analysis, immediately change the name of the excel file. \
->  		! If a document with the same name already excists, ImageJ will save the results in the same document, overwrite them OR when it is open, will not save them at all.
+>  		! If a document with the same name already excists, ImageJ will save the results in the same document, overwrite them OR when it is open, will not save them at all. \
+>  * During image analysis an image with background correction is automatically saved.		
 
 ### Adipogenic – OilRedO staining
 >  * The macro ‘VetSCRU_OilRed’ is designed to detect lipid droplets based on Oil Red O staining, with Hematoxylin counterstaining. 
