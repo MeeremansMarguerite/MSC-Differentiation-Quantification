@@ -5,7 +5,7 @@
 					//Make sure these are the first 2 images per folder to analyze
 					//For more information, see "README"-file
 	//Uses Color Deconvolution with user defined thresholds
-	//Determine scale on 1 image with scalebar and set as global scale (Adjust line 37), ALL IMAGES SAME MAGNIFICATION
+	//Determine scale on 1 image with scalebar and set as global scale (Adjust line 38), ALL IMAGES SAME MAGNIFICATION
 	//Make sure the right global scale is active!! ((G) next to image name)
 	//FIRST install the plugin "Results to Excel" via https://imagej.net/plugins/read-and-write-excel
 		//AND "Colour Deconvolution 2" via https://blog.bham.ac.uk/intellimic/g-landini-software/colour-deconvolution-2
@@ -13,8 +13,9 @@
 	///Crop all images into a circle touching pellet borders, the area of this circle is saved in the result file.
 	//Written by MARGUERITE MEEREMANS (2022-01-07), marguerite.meeremans@ugent.be
 
-	//Get folder containing images
-rep=getDirectory("Choose a folder");
+	//Get folder containing images + choose folder to store background corrected images
+rep=getDirectory("Choose a folder containing images to analyze");
+rep2=getDirectory("Choose a folder to safe background corrected images");
 list=getFileList(rep);
 	
 	//Define measurements & clear previous results
@@ -48,6 +49,9 @@ run("Duplicate...", "title=Sample");
 close("Result of " + nom);
 run("Calculator Plus", "i1=[Sample] i2=[Result of 1Light.tif] operation=[Divide: i2 = (i1/i2) x k1 + k2] k1=255 k2=0 create");
 selectWindow("Result");
+saveAs("Tiff", rep2+nom);
+run("Duplicate...", "title=Result");
+selectWindow("Result");
 
 	//If the pellets are small and do not cover the full slide -> crop all images manually into a circle touching pellet borders
 title= "Crop";
@@ -56,7 +60,7 @@ waitForUser(title,msg);
 run("Measure");
 
 	//Apply colour deconvolution based on user defined values to achieve accurate stain separation
-run("Colour Deconvolution2", "vectors=[User values] output=[8bit_Transmittance] simulated cross [r1]=0.9486045041303086 [g1]=0.29612449762795023 [b1]=0.11162336963326985 [r2]=0.5933460108409087 [g2]=0.5911797505187827 [b2]=0.5463030422720802 [r3]=0.0 [g3]=0.0 [b3]=0.0");
+run("Colour Deconvolution2", "vectors=[User values] output=[8bit_Transmittance] simulated cross [r1]=0.7776942216253727 [g1]=0.6055400037106758 [b1]=0.1688579330578823 [r2]=0.30115330822990816 [g2]=0.8432368413681333 [b2]=0.445262073729254 [r3]=0.0 [g3]=0.0 [b3]=0.0");
 close("Result-(Colour_3)");
 
 	//Pink/Red colors = cells (image in channel 2, C2), based on nuclear fast red staining
