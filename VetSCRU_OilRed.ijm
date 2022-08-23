@@ -5,15 +5,16 @@
 					//Make sure these are the first 2 images per folder to analyze
 					//For more information, see "README"-file
 	//Uses Color Deconvolution with user defined thresholds
-	//Determine scale on 1 image with scalebar and set as global scale (Adjust line 36), ALL IMAGES SAME MAGNIFICATION
+	//Determine scale on 1 image with scalebar and set as global scale (Adjust line 37), ALL IMAGES SAME MAGNIFICATION
 	//Make sure the right global scale is active!! ((G) next to image name)
 	//FIRST install the plugin "Results to Excel" via https://imagej.net/plugins/read-and-write-excel
 		//AND "Colour Deconvolution 2" via https://blog.bham.ac.uk/intellimic/g-landini-software/colour-deconvolution-2
 	//Images to analyze: save in .tiff/.jpg WITHOUT scalebar printed (this can wrongly be recognized as a signal)
 	//Written by MARGUERITE MEEREMANS (2022-01-07), marguerite.meeremans@ugent.be
 
-	//Get folder containing images
-rep=getDirectory("Choose a folder");
+	//Get folder containing images + choose folder to store background corrected images
+rep=getDirectory("Choose a folder containing images to analyze");
+rep2=getDirectory("Choose a folder to safe background corrected images");
 list=getFileList(rep);
 
 	//Define measurements & clear previous results
@@ -46,6 +47,9 @@ selectWindow("Result of " + nom);
 run("Duplicate...", "title=Sample");
 close("Result of " + nom);
 run("Calculator Plus", "i1=[Sample] i2=[Result of 1Light.tif] operation=[Divide: i2 = (i1/i2) x k1 + k2] k1=255 k2=0 create");
+selectWindow("Result");
+saveAs("Tiff", rep2+nom);
+run("Duplicate...", "title=Result");
 
 	//Apply colour deconvolution based on user defined values to achieve accurate stain separation
 selectWindow("Result");
