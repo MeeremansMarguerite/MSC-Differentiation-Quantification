@@ -15,7 +15,7 @@
 
 	//Get folder containing images + choose folder to store background corrected images
 rep=getDirectory("Choose a folder containing images to analyze");
-rep2=getDirectory("Choose a folder to safe background corrected images");
+rep2=getDirectory("Choose a folder to save background corrected images");
 list=getFileList(rep);
 	
 	//Define measurements & clear previous results
